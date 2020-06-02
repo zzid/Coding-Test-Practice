@@ -1,3 +1,5 @@
+# https://www.acmicpc.net/problem/1038
+
 n = input()
 n = int(n)
 max_v = 9876543210
