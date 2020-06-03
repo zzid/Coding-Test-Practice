@@ -1,3 +1,4 @@
+# https://www.acmicpc.net/problem/1002
 t = int(input())
 for i in range(t):
     x1, y1, r1, x2, y2, r2 = map(int, input().split(' '))
