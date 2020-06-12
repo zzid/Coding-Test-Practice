@@ -3,7 +3,8 @@
 using namespace std;
 int n,m,answer =INT_MAX;
 int _map[1001][1001];
-bool visited[1001][1001];
+bool visited1[1001][1001];
+bool visited2[1001][1001];
 const int dy[4] ={-1,1,0,0};
 const int dx[4] ={0,0,-1,1};
 typedef pair<pair<int, int>,pair<int,int>> p;
@@ -12,13 +13,19 @@ void bfs(queue<p> q){
         p c = q.front(); q.pop();
         int y = c.first.first, x = c.first.second,
             cnt = c.second.first, len  = c.second.second;
-        if(visited[y][x]) continue;
-        visited[y][x] = true;
+        if(y == n && x == m) answer = min(answer, len);
+        if(cnt == 0){
+            if(visited1[y][x]) continue;
+            visited1[y][x] = true;
+        }
+        else if(cnt == 1){
+            if(visited2[y][x]) continue;
+            visited2[y][x] =true;
+        }else continue;
         for(int d=0; d<4; d++){
             int ny = y + dy[d], nx = x + dx[d];
             if(ny <1 || ny >n || nx < 1 || nx >m) continue;
-            if(cnt >1 ) continue;
-            if(ny == n && nx == m) answer = min(answer, len+1);
+            //if(ny == n && nx == m) answer = min(answer, len+1);
             if(_map[ny][nx] == 1 && cnt == 0)q.push({{ny,nx},{cnt+1, len+1}});
             else if(_map[ny][nx] == 0) q.push({{ny,nx}, {cnt, len+1}});
         }
