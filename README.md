@@ -1,4 +1,4 @@
-# Coding-Test-Practice
+# Coding Test Practice
 Daily pratice of coding test 
 | Site | Problem Name | Date(yyyy-mm-dd) |
 |:------------------------------------|:------------------------------------|:------------------------------------|
