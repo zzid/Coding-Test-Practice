@@ -1,54 +1,32 @@
 #include <bits/stdc++.h>
 using namespace std;
 int parent[100001];
-int t,n,answer=0;
-bool visited[100001];
-void dfs(int a, vector<int> v){
-    // if(visited[a]){
-    //     answer += 1;
-    //     return;
-    // }
-    // visited[a] = true;
-    // if(a == parent[a]){
-    //     answer += 1;
-    //     return;
-    // }
-    int next = parent[a];
-    // bool _end = false;
-    for(int i=0; i<v.size(); i++){
-        if(v[i] == next){
-            if(parent[v[i]] == next) return;
-            else {
-                answer++;
-                return;
-            }
-            // _end = true;
-            // break;
-        }
+int from[100001];
+int visited[100001];
+int t,n,answer;
+int dfs(int f, int a, int cnt){
+    if(visited[a]){
+        if(from[a] != f) return 0;
+        return cnt - visited[a];
     }
-    // if(_end) return;
-    v.push_back(next);
-    dfs(next, v);
+    from[a] = f;
+    visited[a] = cnt;
+    return dfs(f, parent[a], cnt+1);
 }
 void init(){
-    answer =0;
     cin >> n;
+    answer = n;
     for(int i=1; i<=n; i++){
         cin >> parent[i];
+        visited[i] = from[i] = 0;
     }
 }
 void solve(){
     for(int i=1; i<=n; i++){
-        //if(visited[i]) continue;
-        if(i == parent[i]){
-            //visited[i] = true;
-            continue;
-        }
-        vector<int> v;
-        v.push_back(i);
-        dfs(i, v);
+        if(visited[i]) continue;
+        answer -= dfs(i, i, 1);
     }
-    cout << "answer : " << answer <<endl;
+    cout << answer <<endl;
 }
 int main(){
     cin >> t;
