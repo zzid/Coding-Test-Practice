@@ -9,3 +9,5 @@ Daily pratice of coding test
 | 2020-06-20 |[BOJ] 텀 프로젝트 ( 9466 번 ) |https://tinyurl.com/yaktfe62|
 | 2020-06-21 |[BOJ] 여행가자 ( 1976 번 ) |https://tinyurl.com/yborwexk|
 | 2020-06-22 |[BOJ] 외판원 순회 ( 2098 번 ) |https://tinyurl.com/ycf9mdxp|
+| 2020-06-23 |[BOJ] 제곱 ㄴㄴ수 ( 1016 번 ) |https://tinyurl.com/y8r6xx5z|
+
