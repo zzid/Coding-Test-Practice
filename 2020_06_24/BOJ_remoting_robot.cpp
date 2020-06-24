@@ -1,62 +1,38 @@
 #include <bits/stdc++.h>
 using namespace std;
+#define MIN -987654321
 int maps[1000][1000];
-int dp[1000][1000]={0,};
+int dp[1000][1000][3];
 bool visited[1000][1000];
-// const int dy[3] = {1,0,0};
-// const int dx[3] = {0,1,-1};
+const int dy[3] = {1,0,0};
+const int dx[3] = {0,1,-1};
 int n, m;
-void prt(){
-    for(int i=0; i<n; i++){
-        for(int j=0; j<m; j++){
-            cout << dp[i][j] << " ";
-        }
-        cout <<endl;
+int dfs(int y, int x, int d){
+    if(y == n-1 && x == m-1) return maps[y][x];
+    if(dp[y][x][d] != MIN) return dp[y][x][d];
+
+    int& ret = dp[y][x][d];
+
+    for(int i=0; i<3; i++){
+        int ny = y + dy[i], nx = x + dx[i];
+        if(ny < 0 || ny >=n || nx < 0 || nx >=m) continue;
+        if(visited[ny][nx]) continue;
+        visited[ny][nx] = true;
+        ret = max(maps[y][x] + dfs(ny,nx,i) , ret);
+        visited[ny][nx] = false;
     }
+    return ret;
 }
-// void dfs(int y, int x, int prev){
-//     if(y == n-1 && x == m-1) return;
-//     if(dp[y][x] > prev + maps[y][x]) return;
-//     dp[y][x] = max(prev+ maps[y][x], dp[y][x]);
-//     for(int i=0; i<3; i++){
-//         int ny = y + dy[i], nx = x + dx[i];
-//         if(ny < 0 || ny >=n || nx < 0 || nx >=m) continue;
-//         if(visited[ny][nx]) continue;
-// //        if(dp[ny][nx] > dp[y][x] + maps[ny][nx]) continue;
-// //        dp[ny][nx] = max(dp[y][x] + maps[ny][nx] , dp[ny][nx]);
-//         //prt();
-//         visited[ny][nx] = true;
-//         dfs(ny,nx,dp[y][x]);
-//         //cout << "here" <<endl;
-//         visited[ny][nx] = false;
-//     }
-// }
 int main(){
     cin >> n >> m;
     for(int i=0; i<n; i++){
         for(int j=0; j<m; j++){
             cin >> maps[i][j];
+            dp[i][j][0] = dp[i][j][1] = dp[i][j][2] = MIN;
         }
     }
-    for(int i=0; i<n; i++){
-        for(int j=0; j<m; j++){
-            dp[i][j] = -987654321;
-        }
-    }
-
-    for(int i=0; i<m; i++){ // x
-        if(i==0) dp[0][i] = maps[i][j];
-        else dp[0][i] += (dp[0][i-1] + maps[0][i]);
-        visited[0][i] = true;
-    }
-    for(int i=1; i<n; i++){
-        for(int j=0; j<m; j++){
-
-        }
-    }
-
-
-    cout << dp[n-1][m-1] <<endl;
+    visited[0][0] = true;
+    cout << dfs(0,0,0) <<endl;
     return 0;
 }
 
