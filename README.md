@@ -11,5 +11,5 @@ Daily pratice of coding test
 | 2020-06-22 |[BOJ] 외판원 순회 ( 2098 번 ) |https://tinyurl.com/ycf9mdxp|
 | 2020-06-23 |[BOJ] 제곱 ㄴㄴ수 ( 1016 번 ) |https://tinyurl.com/y8r6xx5z|
 | 2020-06-24 |[BOJ] 로봇 조종하기 ( 2169 번 ) |https://tinyurl.com/ydhc5ylr|
-| 2020-06-24 |[HackerRank] Organizing Containers of Balls |https://tinyurl.com/y752rzpc|
+| " |[HackerRank] Organizing Containers of Balls |https://tinyurl.com/y752rzpc|
 
