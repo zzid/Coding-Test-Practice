@@ -10,6 +10,7 @@ for i in range(n):
     rects.append(temp)
 area = 0
 for keys in idxs:
+    if keys == 0: continue
     for i in idxs[keys]:
         leng = 1
         pivot = keys
