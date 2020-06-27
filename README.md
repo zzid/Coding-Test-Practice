@@ -13,3 +13,4 @@ Daily pratice of coding test
 | 2020-06-24 |[BOJ] 로봇 조종하기 ( 2169 번 ) <br> [HackerRank] Organizing Containers of Balls|https://tinyurl.com/ydhc5ylr <br> https://tinyurl.com/y752rzpc|
 | 2020-06-25 |[BOJ] 쉬운 계단 수 ( 10844 번 ) <br> [BOJ] 계단 수 ( 1562 번 ) |https://tinyurl.com/y8nx3nv8 <br> https://tinyurl.com/y9t3nrar|
 | 2020-06-26 |[BOJ] 히스토그램 ( 1725 번 ) |https://tinyurl.com/y7nawzx6|
+| 2020-06-27 |[Programmers] 2020 KAKAO BLIND RECRUITMENT 가사검색 |https://tinyurl.com/y9eugx5m|
