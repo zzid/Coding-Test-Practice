@@ -15,4 +15,4 @@ Daily pratice of coding test
 | 2020-06-26 |[BOJ] 히스토그램 ( 1725 번 ) |https://tinyurl.com/y7nawzx6|
 | 2020-06-27 |[Programmers] 2020 KAKAO BLIND RECRUITMENT 가사검색 |https://tinyurl.com/y9eugx5m|
 | 2020-06-28 |[BOJ] 줄 세우기 ( 2252 번 ) <br> [BOJ] 피보나치 수 3 ( 2749 번 )|https://tinyurl.com/yde7thnp<br>https://tinyurl.com/yacozdor|
-| 2020-06-29 |[BOJ] 문제집 ( 1766 번 ) |https://tinyurl.com/y87hs5cj|
+| 2020-06-29 |[BOJ] 문제집 ( 1766 번 ) <br> [BOJ] 가운데를 말해요 ( 1655 번 ) |https://tinyurl.com/y87hs5cj<br>https://tinyurl.com/y8ae4evf|
