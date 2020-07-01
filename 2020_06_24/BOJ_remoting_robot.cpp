@@ -1,55 +1,48 @@
 #include <bits/stdc++.h>
 using namespace std;
-int n, answer =INT_MIN;
-const int dy[4] ={1,-1,0,0};
-const int dx[4] ={0,0,1,-1};
-int forest[500][500];
-bool visited[500][500];
-int dp[500][500];
-void prt(){
-    for(int i=0; i<n; i++){
-        for(int j=0; j<n; j++){
-            cout << dp[i][j] << " ";
-        }
-        cout << endl;
-    }
-}
-int dfs(int y, int x){
-    if(dp[y][x] != 0) return dp[y][x];
-    bool change = false;
-    for(int i=0; i<4; i++){
-        int ny = y + dy[i], nx = x +dx[i];
-        if(ny >= n || ny < 0 || nx >= n || nx < 0) continue;
+#define MIN -987654321
+int maps[1000][1000];
+int dp[1000][1000][3];
+bool visited[1000][1000];
+const int dy[3] = {1,0,0};
+const int dx[3] = {0,1,-1};
+int n, m;
+int dfs(int y, int x, int d){
+    if(y == n-1 && x == m-1) return maps[y][x];
+    if(dp[y][x][d] != MIN) return dp[y][x][d];
+
+    int& ret = dp[y][x][d];
+
+    for(int i=0; i<3; i++){
+        int ny = y + dy[i], nx = x + dx[i];
+        if(ny < 0 || ny >=n || nx < 0 || nx >=m) continue;
         if(visited[ny][nx]) continue;
-        if(forest[ny][nx] > forest[y][x]){
-            change = true;
-            visited[ny][nx] = true;
-            dp[y][x] = max(dp[y][x], dfs(ny,nx) + 1 );
-            visited[ny][nx] = false;
-        }
+        visited[ny][nx] = true;
+        ret = max(maps[y][x] + dfs(ny,nx,i) , ret);
+        visited[ny][nx] = false;
     }
-    if(!change) return dp[y][x] = 1;
+    return ret;
 }
 int main(){
-    cin >> n;
+    cin >> n >> m;
     for(int i=0; i<n; i++){
-        for(int j=0; j<n; j++){
-            cin >> forest[i][j];
-            dp[i][j] = 0;
+        for(int j=0; j<m; j++){
+            cin >> maps[i][j];
+            dp[i][j][0] = dp[i][j][1] = dp[i][j][2] = MIN;
         }
     }
-    for(int i=0; i<n; i++){
-        for(int j=0; j<n; j++){
-            dfs(i,j);
-        }
-    }
-    for(int i=0; i<n; i++){
-        for(int j=0; j<n; j++){
-            answer = answer > dp[i][j] ? answer : dp[i][j];
-            cout << dp[i][j] << " ";
-        }
-        cout <<endl;
-    }
-    cout << answer << "\n";
+    visited[0][0] = true;
+    cout << dfs(0,0,0) <<endl;
     return 0;
 }
+
+
+/*
+5 5
+10 25 7 8 13
+68 24 -78 63 32
+12 -69 100 -29 -25
+-16 -22 -57 -33 99
+7 -76 -11 77 15
+*/
+//319
