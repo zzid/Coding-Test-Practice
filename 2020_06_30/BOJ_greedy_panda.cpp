@@ -1,25 +1,27 @@
 #include <bits/stdc++.h>
 using namespace std;
-int n,answer =INT_MIN;
-typedef pair<pair<int, int>,int> pp;
+int n, answer =INT_MIN;
 const int dy[4] ={1,-1,0,0};
 const int dx[4] ={0,0,1,-1};
 int forest[500][500];
 bool visited[500][500];
 int dp[500][500];
-int dfs(int y, int x, int days){
-    if(visited[y][x]) return 0;
-    visited[y][x] = true;
+int dfs(int y, int x){
     if(dp[y][x] != 0) return dp[y][x];
+    bool change = false;
     for(int i=0; i<4; i++){
         int ny = y + dy[i], nx = x +dx[i];
         if(ny >= n || ny < 0 || nx >= n || nx < 0) continue;
+        if(visited[ny][nx]) continue;
         if(forest[ny][nx] > forest[y][x]){
-            dp[ny][nx] = dp[ny][nx] + dfs(ny,nx,days+1);
+            change = true;
+            visited[ny][nx] = true;
+            dp[y][x] = max(dp[y][x], dfs(ny,nx) + 1 );
             visited[ny][nx] = false;
         }
-        else return days;
     }
+    if(!change) return dp[y][x] = 1;
+    return dp[y][x];
 }
 int main(){
     cin >> n;
@@ -31,7 +33,7 @@ int main(){
     }
     for(int i=0; i<n; i++){
         for(int j=0; j<n; j++){
-            dfs(i,j,1);
+            dfs(i,j);
         }
     }
     for(int i=0; i<n; i++){
