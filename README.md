@@ -18,3 +18,5 @@ Daily pratice of coding test
 | 2020-06-29 |[BOJ] 문제집 ( 1766 번 ) <br> [BOJ] 가운데를 말해요 ( 1655 번 ) |https://tinyurl.com/y87hs5cj<br>https://tinyurl.com/y8ae4evf|
 | 2020-06-30 |[BOJ] 욕심쟁이 판다( 1937 번 ) |https://tinyurl.com/y7pyb947|
 | 2020-07-01 |[Programmers] 2019 KAKAO BLIND RECRUITMENT 매칭 점수 |https://tinyurl.com/ycg6byuk|
+| 2020-07-02 |[Programmers] 2019 KAKAO BLIND RECRUITMENT 무지의 먹방 라이브 |https://tinyurl.com/ycdwzfjj|
+
