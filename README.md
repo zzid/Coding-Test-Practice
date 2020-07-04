@@ -20,5 +20,4 @@ Daily pratice of coding test
 | 2020-07-01 |[Programmers] 2019 KAKAO BLIND RECRUITMENT 매칭 점수 |https://tinyurl.com/ycg6byuk|
 | 2020-07-02 |[Programmers] 2019 KAKAO BLIND RECRUITMENT 무지의 먹방 라이브 |https://tinyurl.com/ycdwzfjj|
 | 2020-07-03 |[Programmers] Summer/Winter Coding(2019) 지형 이동 |https://tinyurl.com/y84cot7c|
-
-
+| 2020-07-04 |[Programmers] 찾아라 프로그래밍 마에스터 게임 맵 최단거리 |https://tinyurl.com/y8swyfvd|
