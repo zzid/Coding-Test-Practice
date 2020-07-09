@@ -17,11 +17,12 @@ Daily pratice of coding test
 | 2020-06-28 |[BOJ] 줄 세우기 ( 2252 번 ) <br> [BOJ] 피보나치 수 3 ( 2749 번 )|https://tinyurl.com/yde7thnp<br>https://tinyurl.com/yacozdor|
 | 2020-06-29 |[BOJ] 문제집 ( 1766 번 ) <br> [BOJ] 가운데를 말해요 ( 1655 번 ) |https://tinyurl.com/y87hs5cj<br>https://tinyurl.com/y8ae4evf|
 | 2020-06-30 |[BOJ] 욕심쟁이 판다( 1937 번 ) |https://tinyurl.com/y7pyb947|
-| 2020-07-01 |[Programmers] 2019 KAKAO BLIND RECRUITMENT 매칭 점수 |https://tinyurl.com/ycg6byuk|
-| 2020-07-02 |[Programmers] 2019 KAKAO BLIND RECRUITMENT 무지의 먹방 라이브 |https://tinyurl.com/ycdwzfjj|
-| 2020-07-03 |[Programmers] Summer/Winter Coding(2019) 지형 이동 |https://tinyurl.com/y84cot7c|
-| 2020-07-04 |[Programmers] 찾아라 프로그래밍 마에스터 게임 맵 최단거리 |https://tinyurl.com/y8swyfvd|
+| 2020-07-01 |[Programmers] 2019 KAKAO BLIND RECRUITMENT | 매칭 점수 |https://tinyurl.com/ycg6byuk|
+| 2020-07-02 |[Programmers] 2019 KAKAO BLIND RECRUITMENT | 무지의 먹방 라이브 |https://tinyurl.com/ycdwzfjj|
+| 2020-07-03 |[Programmers] Summer/Winter Coding(2019) | 지형 이동 |https://tinyurl.com/y84cot7c|
+| 2020-07-04 |[Programmers] 찾아라 프로그래밍 마에스터 | 게임 맵 최단거리 |https://tinyurl.com/y8swyfvd|
 | 2020-07-05 |[BOJ] 문자열 폭발 ( 9935 번 ) |https://tinyurl.com/y9fcxjmj|
 | 2020-07-06 |[BOJ] 나무 재테크 ( 16235 번 ) <br>[BOJ] 적록색약 ( 10026 번 ) |https://tinyurl.com/ydep5jvl<br>https://tinyurl.com/y7xqpwfn|
 | 2020-07-07 |[BOJ] Dance Dance Revolution ( 2342 번 ) ### 나중에 다시 풀어보기<br> [Programmers] 2019 KAKAO BLIND RECRUITMENT 블록 게임 |https://tinyurl.com/ycaeh4of<br>https://tinyurl.com/y7z4qv55|
-| 2020-07-08 |[Programmers] 2020 카카오 인턴십 보석 쇼핑  |https://tinyurl.com/y9px342l|
+| 2020-07-08 |[Programmers] 2020 카카오 인턴십 | 보석 쇼핑  |https://tinyurl.com/y9px342l|
+| 2020-07-08 |[Programmers] 2020 카카오 인턴십 | 키패드 누르기  |https://tinyurl.com/y9zlqyh4|
