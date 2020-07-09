@@ -25,4 +25,6 @@ Daily pratice of coding test
 | 2020-07-06 |[BOJ] 나무 재테크 ( 16235 번 ) <br>[BOJ] 적록색약 ( 10026 번 ) |https://tinyurl.com/ydep5jvl<br>https://tinyurl.com/y7xqpwfn|
 | 2020-07-07 |[BOJ] Dance Dance Revolution ( 2342 번 ) ### 나중에 다시 풀어보기<br> [Programmers] 2019 KAKAO BLIND RECRUITMENT 블록 게임 |https://tinyurl.com/ycaeh4of<br>https://tinyurl.com/y7z4qv55|
 | 2020-07-08 |[Programmers] 2020 카카오 인턴십 / 보석 쇼핑  |https://tinyurl.com/y9px342l|
-| 2020-07-08 |[Programmers] 2020 카카오 인턴십 / 키패드 누르기 <br> [Programmers] 2020 카카오 인턴십 / 수식 최대화 |https://tinyurl.com/y9zlqyh4<br>https://tinyurl.com/ycz5stw4|
+| 2020-07-08 |[Programmers] 2020 카카오 인턴십 / 키패드 누르기 <br> [Programmers] 2020 카카오 인턴십 / 수식 최대화 <br> [Programmers] 2020 카카오 인턴십 / 경주로 건설 |https://tinyurl.com/y9zlqyh4<br>https://tinyurl.com/ycz5stw4<br>https://tinyurl.com/yas7tg9t|
+
+
