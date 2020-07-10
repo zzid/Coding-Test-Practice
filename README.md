@@ -26,5 +26,5 @@ Daily pratice of coding test
 | 2020-07-07 |[BOJ] Dance Dance Revolution ( 2342 번 ) ### 나중에 다시 풀어보기<br> [Programmers] 2019 KAKAO BLIND RECRUITMENT 블록 게임 |https://tinyurl.com/ycaeh4of<br>https://tinyurl.com/y7z4qv55|
 | 2020-07-08 |[Programmers] 2020 카카오 인턴십 / 보석 쇼핑  |https://tinyurl.com/y9px342l|
 | 2020-07-09 |[Programmers] 2020 카카오 인턴십 / 키패드 누르기 <br> [Programmers] 2020 카카오 인턴십 / 수식 최대화 <br> [Programmers] 2020 카카오 인턴십 / 경주로 건설 |https://tinyurl.com/y9zlqyh4<br>https://tinyurl.com/ycz5stw4<br>https://tinyurl.com/yas7tg9t|
-| 2020-07-10 |[BOJ] 청소년 상어 [ 19236 번 ] (WA) |https://tinyurl.com/yaeflwnd|
+| 2020-07-10 |[BOJ] 청소년 상어 [ 19236 번 ] |https://tinyurl.com/yaeflwnd|
 

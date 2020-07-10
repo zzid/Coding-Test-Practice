@@ -6,7 +6,7 @@ class fish:
         self.x = x
         self.d = d
         self.num = num
-        self.arrive = True
+        self.alive = True
 class shark:
     def __init__(self, y,x,d,val):
         self.y = y
@@ -19,11 +19,10 @@ def rot(i):
     if(i==8): i = 0
     return i
 
-def fish_mov():
-    global lis,sh,m
+def fish_mov(shk_y, shk_x):
+    global lis
     for i in lis:
-        # i is fish object
-        if i.arrive == False: continue
+        if i.alive == False: continue
         ny = i.y + di[i.d][0]
         nx = i.x + di[i.d][1]
         flag = True
@@ -34,80 +33,62 @@ def fish_mov():
             if ny < 0 or ny >=4 or nx < 0 or nx >=4:
                 i.d = rot(i.d)
                 flag = True
-            if ny == sh.y and nx == sh.x:
+                continue
+            if ny == shk_y and nx == shk_x:
                 i.d = rot(i.d)
                 flag = True
-        
-        temp = deepcopy(m[(i.y,i.x)])
-        m[(i.y,i.x)] = m[(ny,nx)]
-        m[(ny,nx)] = temp
-        for a in lis:
-            if a.y == ny and a.x == nx:
-                a.y = i.y 
-                a.x = i.x
-                break 
-        i.y = ny
-        i.x = nx
-def shark_mov():
-    global lis,sh,m
-    y = sh.y
-    x = sh.x
-    max_num = 0
-    go_y = 0
-    go_x = 0
-    for i in range(4):
-        ny = y + di[sh.d][0]
-        nx = x + di[sh.d][1]
-        if ny < 0 or ny >=4 or nx < 0 or nx >=4: break
-        if m[(ny,nx)].arrive and m[(ny,nx)].num > max_num:
-            go_y = ny
-            go_x = nx
-            max_num = m[(ny,nx)].num
-        y = ny
-        x = nx
+                continue
+
+        # arr[i.y][i.x] == i.num at this moment 
+        # >> arr[i.y][i.x] == arr[ny][nx].num  >> gonna change like this
+        cur = deepcopy(i.num)
+        nex = deepcopy(arr[ny][nx])
+        y = deepcopy(i.y)
+        x = deepcopy(i.x)
+        nidx = [lis[arr[ny][nx]-1].y , lis[arr[ny][nx]-1].x , lis[arr[ny][nx]-1].num]
+        # lis[nidx-1] <> lis[i.num-1]
+        lis[arr[ny][nx]-1].y = lis[i.num-1].y
+        lis[arr[ny][nx]-1].x = lis[i.num-1].x
+        lis[i.num-1].y = nidx[0]
+        lis[i.num-1].x = nidx[1]
+
+        arr[ny][nx] = cur
+        arr[y][x] = nex
+def dfs(y,x,d,val):
+    global lis,answer,arr
+    nex_fish = deepcopy(lis)
+    nex_arr = deepcopy(arr)
+    fish_mov(y,x)
     
-    if m[(go_y,go_x)].arrive:
-        sh.val += m[(go_y,go_x)].num
-        sh.d = m[(go_y,go_x)].d
-        for i in lis:
-            if i.num == m[(go_y,go_x)].num:
-                print('i : ', i.num, i.y,i.x)
-                i.arrive = False
-                break       
+    for i in range(1,4):
+        ny = y + (di[d][0] * i)
+        nx = x + (di[d][1] * i)
+        if ny < 0 or ny >=4 or nx < 0 or nx >=4: break
+        if lis[arr[ny][nx]-1].alive:
+            lis[arr[ny][nx]-1].alive = False
+            dfs(ny, nx, lis[arr[ny][nx]-1].d, val + lis[arr[ny][nx]-1].num)
+            lis[arr[ny][nx]-1].alive = True
+            # lis = deepcopy(nex_fish)
+    answer = max(val, answer)
+    lis = deepcopy(nex_fish)
+    arr = deepcopy(nex_arr)
+    return 
 
 
-
-m = {}
+arr = [[ _ for _ in range(4) ] for _ in range(4)] 
+lis = []
+answer = 0
 for i in range(4):
-    line = list(map(int, input().split(' ')))
+    line = list(map(int, input().split()))
     for j in range(4):
         num = line.pop(0)
         d = line.pop(0)
-        m[(i,j)] = fish(i,j,d-1,num)
-sh = shark(0,0,m[(0,0)].d, m[(0,0)].num)
-lis = sorted(m.values(),key = (lambda a : a.num))
-for i in lis:
-    if i.num == m[(0,0)].num:
-        i.arrive = False
-        break
-print(sh.val)
-for i in range(4):
-    for j in range(4):
-        if m[(i,j)].arrive: print(m[(i,j)].num, end= ' ' )
-        else:print(0, end = ' ')
-    print()
-while 1:
-    pivot = sh.val
-    fish_mov()
-    shark_mov()
-    print(sh.val)
-    for i in range(4):
-        for j in range(4):
-            if m[(i,j)].arrive: print(m[(i,j)].num, end= ' ' )
-            else:print(0, end = ' ')
-        print()
-    if pivot == sh.val: break
+        arr[i][j] = num
+        lis.append(fish(i,j,d-1,num))
+lis.sort(key = lambda x : x.num)
+lis[arr[0][0]-1].alive = False
+# ----------- never need to change
 
-print(sh.val)
-
+dfs(0,0,lis[arr[0][0]-1].d, lis[arr[0][0]-1].num)
+print(answer)
 
