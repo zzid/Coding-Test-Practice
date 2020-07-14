@@ -30,3 +30,4 @@ Daily pratice of coding test
 | 2020-07-11 |[BOJ] 구슬 탈출 2 ( 13460 번 ) |https://tinyurl.com/ybhsgq9l|
 | 2020-07-12 |[BOJ] 2048(Easy) ( 12100 번 ) |https://tinyurl.com/ych3qnhe|
 | 2020-07-13 |[BOJ] 낚시왕 ( 17143 번 ) |https://tinyurl.com/ybhhafvb|
+| 2020-07-14 |[BOJ] 스타트 택시 ( 19238 번 ) |https://tinyurl.com/ya7agyu6|
