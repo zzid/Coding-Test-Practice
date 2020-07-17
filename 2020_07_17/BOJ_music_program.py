@@ -1,5 +1,3 @@
-# | 2020-07-temp |[BOJ] 음악프로그램 ( 2623 번 ) |https://tinyurl.com/y73eb4tc|
-
 def bfs():
     global indegree, n,answer, nodes,visited
     change = True
@@ -20,7 +18,6 @@ def bfs():
     
 
 n, m = map(int, input().split())
-dic = {}
 answer = []
 order = [[] for _ in range(m)]
 indegree = [ 0 for _ in range(n+1)]
@@ -28,7 +25,6 @@ visited = [ False for _ in range(n)]
 nodes = [[] for _ in range(n+1)]
 for i in range(m):
     temp = list(map(int, input().split()))
-    # dic[i] = temp[0]
     for a in range(1,len(temp)):
         order[i].append(temp[a])
 
