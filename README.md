@@ -35,4 +35,4 @@ Daily pratice of coding test
 | 2020-07-16 |[BOJ] 구간 합 구하기 ( 2042 번 )<br>[Programmers] 찾아라 프로그래밍 마에스터 / 사칙연산 |https://tinyurl.com/y89supcw<br>https://tinyurl.com/y8h3pfcw|
 | 2020-07-17 |[BOJ] 음악프로그램 ( 2623 번 ) |https://tinyurl.com/y73eb4tc|
 | 2020-07-18 |[BOJ] 인구 이동 ( 16234 번 ) |https://tinyurl.com/y6kjeogd|
-
+| 2020-07-19 |[BOJ] 드래곤 커브 ( 15685 번 ) |https://tinyurl.com/yx8qlytr|
