@@ -37,3 +37,4 @@ Daily pratice of coding test
 | 2020-07-18 |[BOJ] 인구 이동 ( 16234 번 ) |https://tinyurl.com/y6kjeogd|
 | 2020-07-19 |[BOJ] 드래곤 커브 ( 15685 번 ) |https://tinyurl.com/yx8qlytr|
 | 2020-07-20 |[BOJ] 뱀 ( 3190 번 ) |https://tinyurl.com/y68z9wv8|
+| 2020-07-21 |[BOJ] 사회망 서비스(SNS) ( 2533 번 ) |https://tinyurl.com/yyj4j4p8|
