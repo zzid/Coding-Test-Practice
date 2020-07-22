@@ -22,7 +22,7 @@ def dfs(idx, go, cnt, fuel):
 n = int(input())
 stations = []
 dist = []
-for i in range(n):
+for i in range(n): 
     a, b= map(int, input().split())
     if i == 0:
         dist.append(a)
