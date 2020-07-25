@@ -40,6 +40,4 @@ Daily pratice of coding test
 | 2020-07-21 |[BOJ] 사회망 서비스(SNS) ( 2533 번 ) |https://tinyurl.com/yyj4j4p8|
 | 2020-07-22 |[BOJ] 트리의 독립집합 ( 2213 번 ) |https://tinyurl.com/y5srtk4v|
 | 2020-07-23 |[BOJ] 연료 채우기 ( 1826 번 ) |https://tinyurl.com/y66octq9|
-
-
-
+| 2020-07-25 |[BOJ] 미세먼지 안녕! ( 17144 번 ) |https://tinyurl.com/yyxj9xul|
