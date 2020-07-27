@@ -42,3 +42,4 @@ Daily pratice of coding test
 | 2020-07-23 |[BOJ] 연료 채우기 ( 1826 번 ) |https://tinyurl.com/y66octq9|
 | 2020-07-25 |[BOJ] 미세먼지 안녕! ( 17144 번 ) |https://tinyurl.com/yyxj9xul|
 | 2020-07-26 |[BOJ] 주사위 굴리기 ( 14499 번 ) |https://tinyurl.com/y642lntr|
+| 2020-07-27 |[BOJ] 버블 소트 ( 1377 번 ) |https://tinyurl.com/y2mpmd8k|
