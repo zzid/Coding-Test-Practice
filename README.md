@@ -44,3 +44,4 @@ Daily pratice of coding test
 | 2020-07-26 |[BOJ] 주사위 굴리기 ( 14499 번 ) |https://tinyurl.com/y642lntr|
 | 2020-07-27 |[BOJ] 버블 소트 ( 1377 번 ) |https://tinyurl.com/y2mpmd8k|
 | 2020-07-28 |[Programmers] 2019 KAKAO BLIND RECRUITMENT 길 찾기 게임 |https://tinyurl.com/y3pgr8zf|
+| 2020-07-30 |[HackerRank] Queen's Attack |https://tinyurl.com/y69hdbyn|
