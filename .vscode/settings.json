@@ -61,5 +61,5 @@
         "valarray": "cpp",
         "variant": "cpp"
     },
-    "python.pythonPath": "C:\\Users\\93101\\AppData\\Local\\Programs\\Python\\Python37\\python.exe"
+    "python.pythonPath": "/Users/zzid/.pyenv/versions/3.7.4/bin/python"
 }
