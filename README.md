@@ -51,4 +51,4 @@ Daily pratice of coding test
 | 2020-08-06 |[BOJ] 테트로미노 ( 14500 번 ) |https://tinyurl.com/y4serrok|
 | 2020-08-09 |[BOJ] 감시 ( 15683 번 ) |https://tinyurl.com/y6ljfbw8|
 | 2020-08-13 |[BOJ] 퇴사 ( 14501 번 ) |https://tinyurl.com/yxjqebdt|
-| 2020-08-15 |[BOJ] 로봇 청소기 ( 14501 번 ) |https://tinyurl.com/yxjqebdt|
+| 2020-08-15 |[BOJ] 로봇 청소기 ( 14503 번 ) |https://tinyurl.com/y6tauxw5|
