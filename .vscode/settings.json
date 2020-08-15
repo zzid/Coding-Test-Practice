@@ -59,7 +59,10 @@
         "functional": "cpp",
         "regex": "cpp",
         "valarray": "cpp",
-        "variant": "cpp"
+        "variant": "cpp",
+        "__cxx_version": "cpp",
+        "__hash_table": "cpp",
+        "__tree": "cpp"
     },
     "python.pythonPath": "/Users/zzid/.pyenv/versions/3.7.4/bin/python"
 }
