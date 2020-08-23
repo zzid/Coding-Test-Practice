@@ -1,0 +1,7 @@
+.test1, .test2, .outp {
+    align-content: center;
+    border : solid;
+    border-color: gray;
+    background : #a8a8a8;
+    width : 145px;
+}
