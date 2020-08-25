@@ -53,3 +53,4 @@ Daily pratice of coding test
 | 2020-08-13 |[BOJ] 퇴사 ( 14501 번 ) |https://tinyurl.com/yxjqebdt|
 | 2020-08-15 |[BOJ] 로봇 청소기 ( 14503 번 ) |https://tinyurl.com/y6tauxw5|
 | 2020-08-16 |[BOJ] 연산자 끼워넣기 ( 14888 번 ) |https://tinyurl.com/y27mp7nq|
+| 2020-08-25 |[BOJ] 경사로 ( 14890 번 ) |https://tinyurl.com/y5thfrkv|
