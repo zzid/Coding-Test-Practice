@@ -56,3 +56,4 @@ Daily pratice of coding test
 | 2020-08-25 |[BOJ] 경사로 ( 14890 번 ) |https://tinyurl.com/y5thfrkv|
 | 2020-08-30 |[BOJ] 치킨배달 ( 15686 번 ) |https://tinyurl.com/y6aodegt|
 | 2020-09-05 |[BOJ] 이차원 배열과 연산 ( 17140 번 ) |https://tinyurl.com/y3yhm7jb|
+| 2020-09-13 |[BOJ] 새로운 게임 2 ( 17837 번 ) |https://tinyurl.com/y4vg254a|
