@@ -57,3 +57,4 @@ Daily pratice of coding test
 | 2020-08-30 |[BOJ] 치킨배달 ( 15686 번 ) |https://tinyurl.com/y6aodegt|
 | 2020-09-05 |[BOJ] 이차원 배열과 연산 ( 17140 번 ) |https://tinyurl.com/y3yhm7jb|
 | 2020-09-13 |[BOJ] 새로운 게임 2 ( 17837 번 ) |https://tinyurl.com/y4vg254a|
+| 2020-09-14 |[BOJ] 최단경로 ( 1753 번 ) [dijkstra] |https://www.acmicpc.net/problem/1753|
