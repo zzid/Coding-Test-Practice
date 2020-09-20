@@ -60,3 +60,4 @@ Daily pratice of coding test
 | 2020-09-14 |[BOJ] 최단경로 ( 1753 번 ) [dijkstra] |https://tinyurl.com/y56qkjxs|
 | 2020-09-16 |[Programmers] 두 개 뽑아서 더하기 ( 월간 코드 챌린지 시즌1 )<br>[Programmers] 삼각 달팽이 ( 월간 코드 챌린지 시즌1 ) <br>[Programmers] 풍선 터트리기 ( 월간 코드 챌린지 시즌1 )|https://tinyurl.com/y3eqxr8q<br>https://tinyurl.com/y2fc6jvj<br>https://tinyurl.com/y2vwd2cc
 | 2020-09-19 |[BOJ] 날카로운 눈 ( 1637 번 ) [binary search] |https://tinyurl.com/y4vydegp|
+| 2020-09-20 |[BOJ] 시험 감독 ( 13458 번 ) [Math] |https://tinyurl.com/y5f4s4lr|
