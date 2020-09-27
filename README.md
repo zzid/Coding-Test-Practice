@@ -63,3 +63,4 @@ Daily pratice of coding test
 | 2020-09-20 |[BOJ] 시험 감독 ( 13458 번 ) [Math] |https://tinyurl.com/y5f4s4lr|
 | 2020-09-24 |[BOJ] 톱니바퀴 ( 14891 번 ) [Simulation] |https://tinyurl.com/y5g2llpe|
 | 2020-09-26 |[BOJ] 스타트와 링크 ( 14889 번 ) [Bruteforce] |https://tinyurl.com/y3uzyol7|
+| 2020-09-27 |[Programmers] 2020 KAKAO BLIND RECRUITMENT 기둥과 보 설치 [Simulation] |https://tinyurl.com/y48k7w3u|
