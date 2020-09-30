@@ -64,3 +64,5 @@ Daily pratice of coding test
 | 2020-09-24 |[BOJ] 톱니바퀴 ( 14891 번 ) [Simulation] |https://tinyurl.com/y5g2llpe|
 | 2020-09-26 |[BOJ] 스타트와 링크 ( 14889 번 ) [Bruteforce] |https://tinyurl.com/y3uzyol7|
 | 2020-09-27 |[Programmers] 2020 KAKAO BLIND RECRUITMENT 기둥과 보 설치 [Simulation] |https://tinyurl.com/y48k7w3u|
+| 2020-09-29 |[Programmers] 2020 KAKAO BLIND RECRUITMENT 블록 이동하기 [Simulation] |https://tinyurl.com/y35yv93k|
+| 2020-09-30 |[Programmers] 2018 KAKAO BLIND RECRUITMENT [1차] 추석 트래픽 [Search] |https://tinyurl.com/yypzszdy|
