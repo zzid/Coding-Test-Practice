@@ -68,3 +68,4 @@ Daily pratice of coding test
 | 2020-09-30 |[Programmers] 2018 KAKAO BLIND RECRUITMENT [1차] 추석 트래픽 [Search] |https://tinyurl.com/yypzszdy|
 | 2020-10-01 |[Programmers] 2020 KAKAO BLIND RECRUITMENT 자물쇠와 열쇠 [Search] |https://tinyurl.com/y96rfg3s|
 | 2020-10-02 |[Programmers] 2019 카카오 개발자 겨울 인턴십 호텔 방 배정 [map, find] |https://tinyurl.com/y3j7eazy|
+| 2020-10-03 |[BOJ] 인성 문제 있어?? [bfs] |https://tinyurl.com/y2kv4zgd|

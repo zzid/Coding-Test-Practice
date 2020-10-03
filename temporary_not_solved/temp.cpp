@@ -71,3 +71,30 @@ vector<string> solution(vector<string> orders, vector<int> course) {
     return answer;
 }
 */
+/*
+#include <bits/stdc++.h>
+using namespace std;
+
+typedef long long ll;
+ll dp[51];
+int nums[10] ={6,2,5,5,4,5,6,3,7,6};
+
+ll dfs(int k, int pos){
+    ll& ret = dp[k];
+    if(ret != -1 || k==1) return ret;
+    else if(k ==0) return 1;
+    ret =0;
+    for(int i=0; i<10; i++){
+      if(pos == 0 && i==0) continue;
+      if(nums[i] <= k) ret += dfs(k-nums[i],pos+1);
+    }
+    return ret;
+}
+int main(){
+    memset(dp, -1, sizeof dp);
+    dp[1] =0;
+    cout << "result : " << dfs(11,0) <<endl;
+    return 0;
+}
+
+*/
