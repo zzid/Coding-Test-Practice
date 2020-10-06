@@ -71,3 +71,5 @@ Daily pratice of coding test
 | 2020-10-03 |[BOJ] 인성 문제 있어?? [bfs] |https://tinyurl.com/y2kv4zgd|
 | 2020-10-04 |[Programmers] 2018 KAKAO BLIND RECRUITMENT [1차] 셔틀버스 |https://tinyurl.com/y34xy2wu|
 | 2020-10-05 |[Programmers] 2017 카카오코드 예선 4단 고음 [dfs] |https://tinyurl.com/yxd49hn6|
+| 2020-10-06 |[BOJ] 최소비용 구하기 [dijkstra] |https://tinyurl.com/y4eegd56|
+
