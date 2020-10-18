@@ -73,4 +73,6 @@ Daily pratice of coding test
 | 2020-10-05 |[Programmers] 2017 카카오코드 예선 4단 고음 [dfs] |https://tinyurl.com/yxd49hn6|
 | 2020-10-06 |[BOJ] 최소비용 구하기 [dijkstra] |https://tinyurl.com/y4eegd56|
 | 2020-10-14 |[Programmers] 2019 카카오 개발자 겨울 인턴십 [dfs, bit mask] |https://tinyurl.com/y3jozfaf|
+| 2020-10-15 |[Programmers] 2019 카카오 개발자 징검다리 건너기 [binary search] |https://tinyurl.com/yyfyy2yj|
+| 2020-10-18 |[Programmers] Summer/Winter Coding(~2018) 쿠키 구입 |https://tinyurl.com/yyksklb3|
 
