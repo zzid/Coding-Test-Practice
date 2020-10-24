@@ -76,4 +76,5 @@ Daily pratice of coding test
 | 2020-10-15 |[Programmers] 2019 카카오 개발자 징검다리 건너기 [binary search] |https://tinyurl.com/yyfyy2yj|
 | 2020-10-18 |[Programmers] Summer/Winter Coding(~2018) 쿠키 구입 |https://tinyurl.com/yyksklb3|
 | 2020-10-19 |[Programmers] Summer/Winter Coding(~2018) 배달 |https://tinyurl.com/y3oc67aa|
+| 2020-10-24 |[BOJ] 크게 만들기 [greedy, stack] |https://tinyurl.com/y6h3d9cc|
 

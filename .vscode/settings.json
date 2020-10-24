@@ -64,5 +64,6 @@
         "__hash_table": "cpp",
         "__tree": "cpp"
     },
-    "python.pythonPath": "/Users/zzid/.pyenv/versions/3.7.4/bin/python"
+    "python.pythonPath": "/Users/zzid/.pyenv/versions/3.7.4/bin/python",
+    "compile-hero.disable-compile-files-on-did-save-code": true
 }
