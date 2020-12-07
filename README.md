@@ -97,3 +97,7 @@ Daily pratice of coding test
 | 2020-12-02       | [CodeWars] Next bigger number with the same digits ( 4 kyu )                                                                                                                    | https://tinyurl.com/y22xj87z                                                                                                 |
 | 2020-12-03       | [CodeWars] Strip Comments ( 4 kyu ) [ Regular Expression]                                                                                                                       | https://tinyurl.com/y6hq5ksz                                                                                                 |
 | 2020-12-04       | [CodeWars] Pyramid Slide Down ( 4 kyu ) [ Dynamic Programming ]                                                                                                                 | https://tinyurl.com/y2tc948o                                                                                                 |
+| 2020-12-07       | [CodeWars] Breadcrumb Generator
+ ( 4 kyu ) [ String ]                                                                                                                 | https://tinyurl.com/y4svzgh6                                                                                                 |
+
+
