@@ -1,22 +1,40 @@
-function dblLinear(n) {
-  let arr = [1],
-    y = 0,
-    z = 0;
-
-  while (arr.length <= n) {
-    let yValue = 2 * arr[y] + 1,
-      zValue = 3 * arr[z] + 1;
-    if (yValue > zValue) {
-      z++;
-      arr.push(zValue);
-    } else if (yValue < zValue) {
-      y++;
-      arr.push(yValue);
+const permutator = (inputArr) => {
+  let result = [];
+  const permute = (arr, m = []) => {
+    if (arr.length === 0) {
+      result.push(m);
     } else {
-      y++;
-      z++;
-      arr.push(yValue);
+      for (let i = 0; i < arr.length; i++) {
+        let curr = arr.concat();
+        let next = curr.splice(i, 1);
+        console.log(curr, next, m);
+        permute(curr.concat(), m.concat(next));
+      }
     }
-  }
-  return arr[n];
+  };
+  permute(inputArr);
+  return new Set(result.map((array) => array.join('')));
+};
+
+function permutations(string) {
+  return [...permutator(string.split(''))];
 }
+
+/*
+function permutations(str) {
+  return str.length <= 1
+    ? [str]
+    : Array.from(
+        new Set(
+          str
+            .split('')
+            .map((char, i) =>
+              permutations(str.substr(0, i) + str.substr(i + 1)).map(
+                (p) => char + p
+              )
+            )
+            .reduce((r, x) => r.concat(x), [])
+        )
+      );
+}
+*/
