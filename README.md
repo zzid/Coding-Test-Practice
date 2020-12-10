@@ -100,3 +100,6 @@ Daily pratice of coding test
 | 2020-12-07       | [CodeWars] Breadcrumb Generator ( 4 kyu ) [ String ]                                                                                                                            | https://tinyurl.com/y4svzgh6                                                                                                 |
 | 2020-12-08       | [CodeWars] Permutations ( 4 kyu ) [ recursive ]<br>[CodeWars] Twice linear ( 4 kyu )                                                                                            | https://tinyurl.com/y3waptvm<br>https://tinyurl.com/y6axnjuw                                                                 |
 | 2020-12-09       | [CodeWars] Perimeter of squares in a rectangle ( 5 kyu ) [ fibonacci ]                                                                                                          | https://tinyurl.com/y3enx8sc                                                                                                 |
+| 2020-12-10       | [CodeWars] Weight for weight ( 5 kyu )                                                                                                         | https://tinyurl.com/y2wofmaf                                                                                                 |
+
+
