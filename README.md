@@ -102,7 +102,6 @@ Daily pratice of coding test
 | 2020-12-09       | [CodeWars] Perimeter of squares in a rectangle ( 5 kyu ) [ fibonacci ]                                                                                                          | https://tinyurl.com/y3enx8sc                                                                                                 |
 | 2020-12-10       | [CodeWars] Weight for weight ( 5 kyu )                                                                                                         | https://tinyurl.com/y2wofmaf                                                                                                 |
 | 2020-12-11       | [CodeWars] Simple Pig Latin ( 5 kyu )                                                                                                         | https://tinyurl.com/yxvllwd2                                                                                                 |
-
-| 2020-12-14       | [CodeWars] Extract the domain name from a URL ( 5 kyu )<br>[CodeWars] A Chain adding function ( 5 kyu )                                                                                                         | https://tinyurl.com/y684gjzh<br>https://tinyurl.com/y6x3oz8t                                                                                                 |
+| 2020-12-14| [CodeWars] Extract the domain name from a URL ( 5 kyu )<br>[CodeWars] A Chain adding function ( 5 kyu )| https://tinyurl.com/y684gjzh<br>https://tinyurl.com/y6x3oz8t|
 
 
