@@ -104,5 +104,8 @@ Daily pratice of coding test
 | 2020-12-11       | [CodeWars] Simple Pig Latin ( 5 kyu )                                                                                                         | https://tinyurl.com/yxvllwd2                                                                                                 |
 | 2020-12-14| [CodeWars] Extract the domain name from a URL ( 5 kyu )<br>[CodeWars] A Chain adding function ( 5 kyu )| https://tinyurl.com/y684gjzh<br>https://tinyurl.com/y6x3oz8t|
 | 2020-12-15| [CodeWars] Moving Zeros To The End ( 5 kyu )<br>[CodeWars] String incrementer ( 5 kyu )| https://tinyurl.com/yajsd747<br>https://tinyurl.com/yanxrt9m|
+| 2020-12-16| [CodeWars] ISBN-10 Validation ( 5 kyu )<br>[CodeWars] Scramblies ( 5 kyu )| https://tinyurl.com/y8tw6xwd<br>https://tinyurl.com/y9qaxo4f|
+
+
 
 
