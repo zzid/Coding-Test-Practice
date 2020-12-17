@@ -1,8 +1,6 @@
 function firstNonRepeatingLetter(s) {
   lowerCased = s.toLowerCase();
   let dictionary = lowerCased.split('').reduce((dict, char) => {
-    if (!char) return dict;
-
     if (!dict[char]) dict[char] = 1;
     else dict[char]++;
     return dict;
