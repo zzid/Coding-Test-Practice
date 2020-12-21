@@ -107,5 +107,6 @@ Daily pratice of coding test
 | 2020-12-16       | [CodeWars] ISBN-10 Validation ( 5 kyu )<br>[CodeWars] Scramblies ( 5 kyu )                                                                                                      | https://tinyurl.com/y8tw6xwd<br>https://tinyurl.com/y9qaxo4f                                                                 |
 | 2020-12-17       | [CodeWars] Regex Password Validation ( 5 kyu )<br>[CodeWars] First non-repeating character ( 5 kyu )                                                                            | https://tinyurl.com/yd2lkdzy<br>https://tinyurl.com/y8d6ctd7                                                                 |
 | 2020-12-18       | [CodeWars] Count IP Addresses ( 5 kyu )| https://tinyurl.com/ya2326na |
+| 2020-12-21       | [CodeWars] Snail ( 4 kyu )| https://tinyurl.com/yb8jddbd |
 
 
