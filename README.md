@@ -109,4 +109,3 @@ Daily pratice of coding test
 | 2020-12-18       | [CodeWars] Count IP Addresses ( 5 kyu )| https://tinyurl.com/ya2326na |
 | 2020-12-21       | [CodeWars] Snail ( 4 kyu )| https://tinyurl.com/yb8jddbd |
 | 2020-12-22       | [CodeWars] The observed PIN ( 4 kyu )| https://tinyurl.com/y9lxtufg | 
- |
