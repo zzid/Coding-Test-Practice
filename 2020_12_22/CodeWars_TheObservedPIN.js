@@ -6,9 +6,11 @@ function getPINs(observed) {
       getCombinations(idx + 1, curCombination + candidate);
     };
 
-    let candidates = new Set(adj[digits[idx]]);
+    let candidates = adj[digits[idx]];
 
-    candidates.forEach(idx !== digits.length - 1 ? goDeeper : reachedEnd);
+    candidates.forEach((candidate) => {
+      idx !== digits.length - 1 ? goDeeper(candidate) : reachedEnd(candidate);
+    });
   };
 
   let adj = [
