@@ -31,3 +31,19 @@ function getPINs(observed) {
 
   return result;
 }
+
+function getProcessedData(url) {
+  return downloadData(url) // returns a promise
+    .then((response) => processDataInWorker(response)) // returns a promise
+    .catch((error) => downloadFallbackData(url)); // returns a promise
+  }
+
+async function getProcessedData(url) {
+  let response;
+  try {
+    response = await downloadData(url);
+  } catch (error) {
+    response = await downloadFallbackData(url);
+  }
+  return processDataInWorker(response);
+}
