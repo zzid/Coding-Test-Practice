@@ -1,7 +1,7 @@
 function convertQueryToMap(query) {
   const hexToASCII = (hex) => String.fromCharCode(parseInt(hex, 16));
 
-  const getValue = (str) => {
+  const makeValue = (str) => {
     if (!str) return str; // if str is undefined
     let hexCodes = str.match(/\%.{2}/g);
     if (!hexCodes) return str; // if there is no hex code
@@ -12,11 +12,10 @@ function convertQueryToMap(query) {
   };
 
   if (!query) return {};
-  let queries = query.split('&');
-  return queries.reduce((obj, query) => {
-    let keyAndValue = query.split('=');
-    let keys = keyAndValue[0].split('.');
-    let value = getValue(keyAndValue[1]);
+  return query.split('&').reduce((obj, param) => {
+    let [keys, value] = param.split('=');
+    keys = keys.split('.');
+    value = makeValue(value);
     let curObj = obj;
     keys.map((key, index) => {
       if (!curObj[key]) {
