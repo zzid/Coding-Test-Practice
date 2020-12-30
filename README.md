@@ -114,3 +114,6 @@ Daily pratice of coding test
 | 2020-12-25       | [Programmers] 기능 개발 | https://tinyurl.com/y8nxbfs3 |
 | 2020-12-28       | [Programmers] 야근 지수 | https://tinyurl.com/y8yosq8p |
 | 2020-12-29       | [CodeWars] Product of consecutive Fib numbers ( 5 kyu ) | https://tinyurl.com/y7sqxx8j |
+| 2020-12-30       | [CodeWars] Objectify a URL Query String ( 4 kyu ) | https://tinyurl.com/yc7oqnee |
+
+
