@@ -1,6 +1,6 @@
 # Coding Test Practice
 
-Daily pratice of coding test
+Daily pratice for coding test
 
 ### (Readme was first updated on 2020-06-17)
 
