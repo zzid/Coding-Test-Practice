@@ -119,3 +119,4 @@ Daily pratice for coding test
 | 2021-01-01       | [Programmers] 3 x n 타일링                                                                                                                                                      | https://tinyurl.com/y9hn6r7b                                                                                                 |
 | 2021-01-02       | [Programmers] [3차] 방금그곡                                                                                                                                                      | https://tinyurl.com/y922xxxn                                                                                                 |
 | 2021-01-04 | [CodeWars] Is my friend cheating? ( 5 kyu ) | https://tinyurl.com/ycdp3x96 |
+| 2021-01-05 | [CodeWars] Square into Squares. Protect trees! ( 4 kyu ) | https://tinyurl.com/y4rjchsp |
