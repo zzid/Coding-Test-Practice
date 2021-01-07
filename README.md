@@ -116,9 +116,11 @@ Daily pratice for coding test
 | 2020-12-29       | [CodeWars] Product of consecutive Fib numbers ( 5 kyu )                                                                                                                         | https://tinyurl.com/y7sqxx8j                                                                                                 |
 | 2020-12-30       | [CodeWars] Objectify a URL Query String ( 4 kyu )                                                                                                                               | https://tinyurl.com/yc7oqnee                                                                                                 |
 | 2020-12-31       | [CodeWars] Human Readable Time ( 5 kyu )                                                                                                                                        | https://tinyurl.com/ybzcxamr                                                                                                 |
-| 2021-01-01       | [Programmers] 3 x n 타일링                                                                                                                                                      | https://tinyurl.com/y9hn6r7b                                                                                                 |
-| 2021-01-02       | [Programmers] [3차] 방금그곡                                                                                                                                                      | https://tinyurl.com/y922xxxn                                                                                                 |
-| 2021-01-04 | [CodeWars] Is my friend cheating? ( 5 kyu ) | https://tinyurl.com/ycdp3x96 |
-| 2021-01-05 | [CodeWars] Square into Squares. Protect trees! ( 4 kyu ) | https://tinyurl.com/y4rjchsp |
-| 2021-01-06 | [CodeWars] Merged String Checker ( 5 kyu ) | https://tinyurl.com/y22xb975 |
+| 2021-01-01 | [Programmers] [3 x n 타일링](2021_01_01/Programmers_3NTiling.js) | https://tinyurl.com/y9hn6r7b |
+| 2021-01-02 | [Programmers] [[3차] 방금그곡](2021_01_02/Programmers_thatSong.js) | https://tinyurl.com/y922xxxn |
+| 2021-01-04 | [CodeWars] [Is my friend cheating?](2021_01_04/CodeWars_IsMyFriendCheating.js) ( 5 kyu ) | https://tinyurl.com/ycdp3x96 |
+| 2021-01-05 | [CodeWars] [Square into Squares. Protect trees!](2021_01_05/CodeWars_SquareIntoSquares.js) ( 4 kyu ) | https://tinyurl.com/y4rjchsp |
+| 2021-01-06 | [CodeWars] [Merged String Checker](2021_01_06/CodeWars_MergedStringChecker.js) ( 5 kyu ) | https://tinyurl.com/y22xb975 |
+| 2021-01-07 | [CodeWars] [Josephus Survivor](2021_01_07/CodeWars_JosephusSurvivor.js) ( 5 kyu ) | https://tinyurl.com/yydanjyy |
+
 
