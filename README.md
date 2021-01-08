@@ -122,5 +122,6 @@ Daily pratice for coding test
 | 2021-01-05 | [CodeWars] [Square into Squares. Protect trees!](2021_01_05/CodeWars_SquareIntoSquares.js) ( 4 kyu ) | https://tinyurl.com/y4rjchsp |
 | 2021-01-06 | [CodeWars] [Merged String Checker](2021_01_06/CodeWars_MergedStringChecker.js) ( 5 kyu ) | https://tinyurl.com/y22xb975 |
 | 2021-01-07 | [CodeWars] [Josephus Survivor](2021_01_07/CodeWars_JosephusSurvivor.js) ( 5 kyu ) | https://tinyurl.com/yydanjyy |
+| 2021-01-08 | [CodeWars] [Hamming Numbers](2021_01_08/CodeWars_hammingNumbers.js) ( 4 kyu ) | https://tinyurl.com/yycro4ck |
 
 
