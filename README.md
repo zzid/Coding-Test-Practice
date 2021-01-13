@@ -125,5 +125,5 @@ Daily pratice for coding test
 | 2021-01-08 | [CodeWars] [Hamming Numbers](2021_01_08/CodeWars_hammingNumbers.js) ( 4 kyu ) | https://tinyurl.com/yycro4ck |
 | 2021-01-11 | [CodeWars] [RGB To Hex Conversion](2021_01_11/CodeWars_RGBToHex.js) ( 5 kyu )<br>[CodeWars] [The Hashtag Generator](2021_01_11/CodeWars_TheHashtagGenerator.js) ( 5 kyu ) | https://tinyurl.com/y5pwzlm9<br>https://tinyurl.com/hynv4hq |
 | 2021-01-12 | [CodeWars] [Common array elements](2021_01_12/CodeWars_CommonArrayElements.js) ( 6 kyu ) | https://tinyurl.com/yxvekzuj |
-
+| 2021-01-13 | [CodeWars] [Find the unique string](2021_01_13/CodeWars_FindTheUniqueString.js) ( 5 kyu ) | https://tinyurl.com/y42phwum |
 
