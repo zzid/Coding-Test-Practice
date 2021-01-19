@@ -127,5 +127,5 @@ Daily pratice for coding test
 | 2021-01-12 | [CodeWars] [Common array elements](2021_01_12/CodeWars_CommonArrayElements.js) ( 6 kyu ) | https://tinyurl.com/yxvekzuj |
 | 2021-01-13 | [CodeWars] [Find the unique string](2021_01_13/CodeWars_FindTheUniqueString.js) ( 5 kyu ) | https://tinyurl.com/y42phwum |
 | 2021-01-14 | [CodeWars] [Catching Car Mileage Numbers](2021_01_14/CodeWars_CatchingCarMileageNumbers.js) ( 4 kyu ) | https://tinyurl.com/yy922bzp |
-| 2021-01-15 | [CodeWars] [Greed is Good](2021_01_15/CodeWars_GreedIsGood.js) ( 5 kyu ) | https://tinyurl.com/y6865otm |l
-    
+| 2021-01-15 | [CodeWars] [Greed is Good](2021_01_15/CodeWars_GreedIsGood.js) ( 5 kyu ) | https://tinyurl.com/y6865otm |
+| 2021-01-19 | [CodeWars] [Primes in numbers](2021_01_19/CodeWars_PrimesInNumbers.js) ( 5 kyu ) | https://tinyurl.com/y3bce6e8 |
