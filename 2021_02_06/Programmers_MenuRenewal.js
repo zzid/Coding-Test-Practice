@@ -25,9 +25,7 @@ function solution(orders, course) {
           return obj;
         }, {});
 
-      let maxV = Object.keys(objs).reduce((max, key) => {
-        return Math.max(max, objs[key]);
-      }, -1);
+      let maxV = Math.max(...Object.values(objs));
 
       Object.keys(objs).forEach((key) => {
         if (maxV <= 1) return;
