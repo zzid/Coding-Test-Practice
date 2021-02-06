@@ -1,6 +1,6 @@
 function solution(orders, course) {
   const combinations = (str, length) => {
-    var recursive = function (active, rest, a) {
+    let recursive = (active, rest, a) => {
       if (!active && !rest) return;
       if (!rest) {
         if (active.length === length) a.push(active.split("").sort().join(""));
