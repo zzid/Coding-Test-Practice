@@ -133,3 +133,4 @@ Daily pratice for coding test
 | 2021-01-27 | [CodeWars] [Calculate Variance](2021_01_27/CodeWars_CalculateVariance.js) | https://tinyurl.com/yyyelbg4 |
 | 2021-02-06 | [Programmers] [메뉴 리뉴얼](2021_02_06/Programmers_MenuRenewal.js)<br>( 2021 KAKAO BLIND RECRUITMENT )| https://tinyurl.com/y2bzhwqq | 
 | 2021-02-07 | [Programmers] [신규 아이디 추천](2021_02_07/Programmers_RecommandNewId.js)<br>( 2021 KAKAO BLIND RECRUITMENT )| https://tinyurl.com/y6e8fbsz | 
+| 2021-02-09 | [Programmers] [카드 짝 맞추기](2021_02_09/Programmers_CardGame.js)<br>( 2021 KAKAO BLIND RECRUITMENT )| https://tinyurl.com/y2gs9q6d | 

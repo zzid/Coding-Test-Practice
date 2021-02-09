@@ -1,25 +1,37 @@
-function solution(new_id) {
-  var answer = "";
-  new_id = new_id.toLowerCase();
-  new_id = new_id.match(/[a-z0-9-_.]/g).join("");
-  new_id = new_id.replace(/\.{2,}/g, ".");
-  if (new_id[0] === ".") {
-    new_id = new_id.substr(1, new_id.length);
-  }
-  if (new_id[new_id.length - 1] === ".") {
-    new_id = new_id.substr(0, new_id.length - 1);
-  }
-  if (!new_id) new_id = "a";
-  if (new_id.length >= 16) new_id = new_id.substr(0, 15);
-  if (new_id[new_id.length - 1] === ".") {
-    new_id = new_id.substr(0, new_id.length - 1);
-  }
-  if (new_id.length <= 2) {
-    new_id = new_id.substr(0, new_id.length);
-    let last = new_id[new_id.length - 1];
-    while (new_id.length < 3) {
-      new_id += last;
-    }
-  }
-  return (answer = new_id);
+function solution(orders, course) {
+  const combinations = (str, length) => {
+    let recursive = (active, rest, a) => {
+      if (!active && !rest) return;
+      if (!rest) {
+        if (active.length === length) a.push(active.split("").sort().join(""));
+      } else {
+        recursive(active + rest[0], rest.slice(1), a);
+        recursive(active, rest.slice(1), a);
+      }
+      return a;
+    };
+    return recursive("", str, []);
+  };
+
+  return course
+    .reduce((answer, c) => {
+      let objs = orders
+        .map((o) => combinations(o, c))
+        .reduce((obj, com) => {
+          com.forEach((s) => {
+            if (!obj[s]) obj[s] = 1;
+            else obj[s]++;
+          });
+          return obj;
+        }, {});
+
+      let maxV = Math.max(...Object.values(objs));
+
+      Object.keys(objs).forEach((key) => {
+        if (maxV <= 1) return;
+        if (objs[key] === maxV) answer.push(key);
+      });
+      return answer;
+    }, [])
+    .sort();
 }
