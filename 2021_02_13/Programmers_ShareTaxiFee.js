@@ -32,10 +32,9 @@ function solution(n, s, a, b, fares) {
     return answer;
 }
 
-
 /* dijstra */
 
-// function solution(n, s, a, b, fares) {  
+// function solution(n, s, a, b, fares) {
 
 //     const dijkstra = (start) => {
 //         const graph = new Map()
@@ -48,7 +47,7 @@ function solution(n, s, a, b, fares) {
 
 //             graph.get(n1).push([n2, cost])
 //             graph.get(n2).push([n1, cost])
-//         }) 
+//         })
 
 //         const visited = Array(n+1).fill(0)
 //         const costs = Array(n+1).fill(Infinity)
@@ -67,7 +66,7 @@ function solution(n, s, a, b, fares) {
 //             }
 
 //             if(!minNode){
-//                 break   
+//                 break
 //             }
 //             visited[minNode] = 1
 

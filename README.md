@@ -135,4 +135,4 @@ Daily pratice for coding test
 | 2021-02-07 | [Programmers] [신규 아이디 추천](2021_02_07/Programmers_RecommandNewId.js)<br>( 2021 KAKAO BLIND RECRUITMENT )| https://tinyurl.com/y6e8fbsz | 
 | 2021-02-09 | [Programmers] [카드 짝 맞추기](2021_02_09/Programmers_CardGame.js){미완성}<br>( 2021 KAKAO BLIND RECRUITMENT )| https://tinyurl.com/y2gs9q6d | 
 | 2021-02-13 | [Programmers] [합승 택시 요금](2021_02_13/Programmers_ShareTaxiFee.js)<br>( 2021 KAKAO BLIND RECRUITMENT )| https://tinyurl.com/yym3t8u7 | 
-
+| 2021-02-14 | [Programmers] [순위 검색](2021_02_14/Programmers_SearchRank.js)<br>( 2021 KAKAO BLIND RECRUITMENT )| https://tinyurl.com/y62q4btm | 
